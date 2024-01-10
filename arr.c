@@ -1,12 +1,20 @@
 #include<stdio.h>
 int main(){
-int arr[10];
-for (int i=0;i<5;i++){
-    printf("enter num");
-    scanf("%d",&arr[i]);
+int arr[5]={12,34,55,67,77};
+int pos ,item;
+printf("position");
+scanf("%d",&pos);
+printf("enter item ");
+scanf("%d",&item);
 
-}int b=sizeof(arr[0]);
-printf("%d",b);
+
+for(int i=4;i>=pos;i--){
+    arr[i+1]=arr[4];
+}
+arr[pos]=item;
+for(int i=0;i<6;i++){
+    printf("5d")
+}
 
 
 
