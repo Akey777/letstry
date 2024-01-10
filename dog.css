@@ -1,0 +1,13 @@
+
+
+.content2{ 
+    
+    max-width: 900px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+img{float: right;
+width: 200px;
+height: 100px;}
